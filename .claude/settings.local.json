@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(rm index.html)",
-      "Bash(mkdir -p _layouts _includes assets/css assets/images)"
-    ]
-  }
-}

@@ -3,3 +3,9 @@ _site/
 vendor/
 .bundle/
 Gemfile.lock
+
+# Claude Code local files
+CLAUDE.md
+.claude/
+.claude.json
+.anthropic/
