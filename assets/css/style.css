@@ -1,0 +1,34 @@
+body {
+  font-family: "Helvetica";
+  margin-top: 5%;
+}
+
+h5 {
+  font-size: 14px;
+  color: grey;
+}
+
+.top-buffer { margin-top: 40px; }
+.year { margin-top: 30px; margin-bottom: 10px; }
+.bottom-buffer { margin-bottom: 40px; }
+
+#pubs li { margin: 15px 0px; }
+
+#portrait { border-radius: 4px; }
+
+.affiliation {
+  color: #777;
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 10px 0 15px;
+}
+
+@media (min-width: 992px) {
+  .sidebar { position: fixed; }
+  #portrait { width: 18%; }
+}
+
+@media (max-width: 992px) {
+  .sidebar { padding-bottom: 5%; margin: auto; text-align: center; }
+  #portrait { width: 50%; }
+}

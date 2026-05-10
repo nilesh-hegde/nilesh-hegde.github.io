@@ -1,0 +1,7 @@
+title: "Nilesh Hegde"
+description: "Predoctoral Research Professional, University of Chicago Booth School of Business"
+url: "https://nilesh-hegde.github.io"
+author: "Nilesh Hegde"
+plugins:
+  - jekyll-seo-tag
+markdown: kramdown
