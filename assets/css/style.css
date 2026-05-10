@@ -23,6 +23,10 @@ h5 {
   margin: 10px 0 15px;
 }
 
+.email-link { color: inherit; text-decoration: none; }
+.email-link:hover .email { text-decoration: underline; }
+.email .decoy { display: none; }
+
 @media (min-width: 992px) {
   .sidebar { position: fixed; }
   #portrait { width: 18%; }
