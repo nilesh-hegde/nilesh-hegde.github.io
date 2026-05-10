@@ -44,10 +44,9 @@ h5 {
 .paper-links a { margin-right: 4px; text-decoration: none; }
 
 object.email-svg {
-  height: 1.4em;
-  margin: -0.2em 0;
+  height: 2em;
+  margin: -1em 0;
   vertical-align: middle;
-  display: inline-block;
 }
 
 @media (min-width: 992px) {
