@@ -23,9 +23,32 @@ h5 {
   margin: 10px 0 15px;
 }
 
-.email-link { color: inherit; text-decoration: none; }
-.email-link:hover .email { text-decoration: underline; }
-.email .decoy { display: none; }
+.section-header {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 40px 0 20px;
+}
+
+.subsection-header {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 25px 0 10px;
+}
+
+.paper { margin: 0 0 28px; }
+.paper-title { font-size: 15px; }
+.paper-authors { font-size: 14px; margin-top: 2px; }
+.paper-summary { font-size: 14px; color: #666; margin-top: 6px; line-height: 1.45; }
+.paper-venue { font-size: 13px; color: #888; margin-top: 6px; }
+.paper-links { margin-top: 10px; }
+.paper-links a { margin-right: 4px; text-decoration: none; }
+
+object.email-svg {
+  height: 1.4em;
+  margin: -0.2em 0;
+  vertical-align: middle;
+  display: inline-block;
+}
 
 @media (min-width: 992px) {
   .sidebar { position: fixed; }
