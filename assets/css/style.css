@@ -43,12 +43,6 @@ h5 {
 .paper-links { margin-top: 10px; }
 .paper-links a { margin-right: 4px; text-decoration: none; }
 
-object.email-svg {
-  height: 2em;
-  margin: -1em 0;
-  vertical-align: middle;
-}
-
 @media (min-width: 992px) {
   .sidebar { position: fixed; }
   #portrait { width: 18%; }
